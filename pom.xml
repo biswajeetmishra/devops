@@ -29,7 +29,7 @@
 		<repository>
 			<id>central</id>
 			<name>releases</name>
-			<url>http://35.154.250.148:8081/artifactory/libs-release-local/</url>
+			<url>http://http://52.66.209.142:8081/artifactory/libs-release-local/</url>
 		</repository>
 		<snapshotRepository>
 			<id>snapshot</id>
