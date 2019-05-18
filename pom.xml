@@ -25,23 +25,18 @@
 		<jacoco.version>0.7.9</jacoco.version>
 	</properties>
 
-	<distributionManagement>
-		<repository>
-			<id>central</id>
-			<name>releases</name>
-			<url>http://http://52.66.209.142:8081/artifactory/libs-release-local/</url>
-		</repository>
-		<snapshotRepository>
-			<id>snapshot</id>
-			<name>snapshots</name>
-			<url>http://52.66.209.142:8081/artifactory/libs-snapshot-local/</url>
-		</snapshotRepository>
-	</distributionManagement>
+        <distributionManagement>
+            <snapshotRepository>
+                <id>snapshots</id>
+                <name>ip-52-66-209-142-snapshots</name>
+                <url>http://52.66.209.142:8081/artifactory/libs-snapshot-local</url>
+            </snapshotRepository>
+        </distributionManagement>
 
 	<scm>
-		<connection>scm:git:git@github.com:keshavkummari/devops.git</connection>
-		<developerConnection>scm:git:git@github.com:keshavkummari/devops.git</developerConnection>
-		<url>git@github.com:keshavkummari/devops.git</url>
+		<connection>scm:git:git@github.com:biswajeetmishra/devops.git</connection>
+		<developerConnection>scm:git:git@github.com:biswajeetmishra/devops.git</developerConnection>
+		<url>git@github.com:biswajeetmishra/devops.git</url>
 		<tag>HEAD</tag>
 	</scm>
 
